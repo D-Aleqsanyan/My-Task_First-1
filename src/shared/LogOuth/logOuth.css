@@ -1,0 +1,32 @@
+.buttonWrapper {
+    display: flex;
+    width: 70px;
+    position: relative;
+}
+
+.logoutWrapper {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    top: 100%;
+    cursor: pointer;
+}
+
+.logout {
+    font-size: 14px;
+}
+
+.ButtonLogin{
+    width: 92px;
+    height: 36px;
+    gap: 10px;
+    border-radius: 4px 0 0 0;
+    background-color: #FFFFFF;
+    color: #003367;
+}
+

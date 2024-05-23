@@ -1,0 +1,39 @@
+.mini-input-calendar {
+    position: relative;
+}
+
+.calendar-container {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.calendar-day {
+    cursor: pointer;
+    padding: 5px;
+}
+
+.calendar-day:hover {
+    background-color: #f0f0f0;
+}
+
+.calendar-day.selected {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.calendar-dropdowns {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.calendar-dropdowns select {
+    margin-right: 10px;
+}

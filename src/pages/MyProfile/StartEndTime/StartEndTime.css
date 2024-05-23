@@ -1,0 +1,40 @@
+.input-container input {
+    border: none;
+    outline: none; /* Optional: removes the outline when the input is focused */
+}
+
+.clear-button{
+    border: none;
+    background: none;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.input-container-inRow{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.StartEndSpan {
+    font-family: Arial sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13.8px;
+    text-align: left;
+    color: #95A2A7;
+}
+
+.add-timer-button{
+    align-items: center;
+    justify-content: center;
+    width: 223px;
+    height: 32px;
+    border-radius: 4px 0 0 0;
+    border: none;
+    cursor: pointer;
+}
+
+

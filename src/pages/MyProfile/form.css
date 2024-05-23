@@ -1,0 +1,314 @@
+.formSpan1 {
+    font-family: Roboto sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+    color: #003367;
+    padding-top: 15px;
+    padding-left: 100px;
+
+}
+
+.formWrapper {
+    padding-top: 15px;
+    padding-left: 100px;
+    height: 100%;
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    overflow-y: hidden;
+}
+
+
+.formWrapperDiv1 {
+    max-height: 285px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 30px;
+    border: 1px solid #EBEEEF;
+    padding: 20px 20px 20px 20px;
+    overflow-x: scroll;
+}
+
+.formWrapperDiv2 {
+    max-height: 285px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #EBEEEF;
+    gap: 20px;
+    padding: 20px 20px 20px 20px;
+    overflow-y: scroll;
+}
+
+.formWrapperDiv1-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.formWrapperDiv1-2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.formSpan2 {
+    font-family: Roboto sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+    color: #003367;
+
+}
+
+.formSpan3 {
+    font-family: Roboto sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+    color: #003367;
+
+}
+
+.formCol1 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.formCol1El1 {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #EBEEEF;
+    gap: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.formCol1El1-1 {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #EBEEEF;
+    gap: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 223px;
+
+}
+
+
+.formCol1El1span {
+    font-family: Roboto sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.4000000059604645px;
+    text-align: left;
+    color: #95A2A7;
+}
+
+.formCol1Input {
+    font-family: Roboto sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    text-align: left;
+    border: none;
+
+}
+
+.formCol1Input2 {
+    font-family: Roboto sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    text-align: left;
+    color: #95A2A7;
+    border: none;
+
+}
+
+
+.formCol1El2 {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #EBEEEF;
+    gap: 8px;
+    padding-top: 27.05px;
+    padding-bottom: 5px;
+}
+
+.formCol1El3 {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #EBEEEF;
+    gap: 8px;
+    padding-top: 9px;
+    padding-bottom: 5px;
+}
+
+.formCol1El4 {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #EBEEEF;
+    gap: 8px;
+    padding-top: 35.05px;
+    padding-bottom: 5px;
+}
+
+.formCol1El2-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.formCol1El2span {
+    font-family: Roboto sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    text-align: left;
+    color: #000000DE;
+
+}
+
+.SlackRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.formCol2 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.formWrapperDiv2-row {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.formCol2Span {
+    font-family: Roboto sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.41px;
+    text-align: left;
+    color: #546E7B;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .formWrapperDiv1 {
+        max-height: 285px;
+        max-width: 900px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        gap: 30px;
+        border: 1px solid #EBEEEF;
+        padding: 20px 20px 20px 20px;
+        overflow-x: scroll;
+    }
+    .formWrapperDiv2 {
+        max-height: 285px;
+        max-width: 900px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        gap: 30px;
+        border: 1px solid #EBEEEF;
+        padding: 20px 20px 20px 20px;
+        overflow-x: scroll;
+    }
+}
+@media screen and (max-width: 1065px) {
+    .formWrapperDiv1 {
+        max-height: 285px;
+        max-width: 600px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        gap: 30px;
+        border: 1px solid #EBEEEF;
+        padding: 20px 20px 20px 20px;
+        overflow-x: scroll;
+    }
+    .formWrapperDiv2 {
+        max-height: 285px;
+        max-width: 600px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        gap: 30px;
+        border: 1px solid #EBEEEF;
+        padding: 20px 20px 20px 20px;
+        overflow-x: scroll;
+    }
+}
+@media screen and (max-width: 780px) {
+    .formWrapperDiv1 {
+        max-height: 285px;
+        max-width: 500px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        gap: 30px;
+        border: 1px solid #EBEEEF;
+        padding: 20px 20px 20px 20px;
+        overflow-x: scroll;
+    }
+    .formWrapperDiv2 {
+        max-height: 285px;
+        max-width: 500px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        gap: 30px;
+        border: 1px solid #EBEEEF;
+        padding: 20px 20px 20px 20px;
+        overflow-x: scroll;
+    }
+}
+@media screen and (max-width: 670px) {
+    .formWrapperDiv1 {
+        max-height: 285px;
+        max-width: 400px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        gap: 30px;
+        border: 1px solid #EBEEEF;
+        padding: 20px 20px 20px 20px;
+        overflow-x: scroll;
+    }
+    .formWrapperDiv2 {
+        max-height: 285px;
+        max-width: 400px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        gap: 30px;
+        border: 1px solid #EBEEEF;
+        padding: 20px 20px 20px 20px;
+        overflow-x: scroll;
+    }
+}
+
+
+
+
+
+

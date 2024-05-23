@@ -1,0 +1,14 @@
+.custom-input input {
+    background-color: white;
+}
+
+.custom-input .MuiInputBase-root.MuiFilledInput-root.Mui-focused {
+    background-color: white;
+}
+
+.custom-input .MuiFormLabel-root.MuiInputLabel-root.Mui-focused {
+    color: #95A2A7;
+}
+
+
+
