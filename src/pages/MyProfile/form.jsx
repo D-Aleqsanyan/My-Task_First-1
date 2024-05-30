@@ -2,12 +2,11 @@ import './form.css'
 import React, {useState, useEffect} from 'react';
 import {useForm} from "react-hook-form";
 import TimeRangePicker from "./StartEndTime/StartEndTime"
-import TimeRangePicker2 from "./StartEndTime/StartEndTime1"
 import GitHub from "./../../assets/github.svg"
 import Slack from "./../../assets/slack.svg"
 import {Checkbox, TextField} from '@mui/material';
-import CustomSlots from "./CalendarB/calendarI";
-import CustomSlots2 from "./CalendarB/calendar";
+import CustomSlots from "./CalendarB/calendar";
+
 
 const Form = () => {
 
@@ -81,7 +80,7 @@ const Form = () => {
 
                         <div className={'formCol1'}>
                             <div className={'formCol1El1'}>
-                                <CustomSlots2 sx={{
+                                <CustomSlots sx={{
                                     width: '223px',
                                     height: '55px'
                                 }}/>
@@ -132,22 +131,22 @@ const Form = () => {
                             </div>
                             <div className={'formCol2'}>
                                 <span className={'formCol2Span'}>Monday</span>
-                                <TimeRangePicker2/>
+                                <TimeRangePicker/>
                                 <TimeRangePicker/>
                             </div>
                             <div className={'formCol2'}>
                                 <span className={'formCol2Span'}>Tuesday</span>
-                                <TimeRangePicker2/>
+                                <TimeRangePicker/>
                                 <TimeRangePicker/>
                             </div>
                             <div className={'formCol2'}>
                                 <span className={'formCol2Span'}>Wednesday</span>
-                                <TimeRangePicker2/>
+                                <TimeRangePicker/>
                                 <TimeRangePicker/>
                             </div>
                             <div className={'formCol2'}>
                                 <span className={'formCol2Span'}>Thursday</span>
-                                <TimeRangePicker2/>
+                                <TimeRangePicker/>
                                 <TimeRangePicker/>
 
                             </div>

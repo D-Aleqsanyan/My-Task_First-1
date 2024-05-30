@@ -6,7 +6,7 @@ import { PickersDay } from '@mui/x-date-pickers/PickersDay';
 import EditCalendarRoundedIcon from '@mui/icons-material/EditCalendarRounded';
 import { styled } from '@mui/material/styles';
 import IconButton from '@mui/material/IconButton';
-import './calendarI.css';
+import './calendar.css';
 
 
 const StyledButton = styled(IconButton)(({ theme }) => ({
@@ -29,7 +29,6 @@ export default function CustomSlots2() {
         <LocalizationProvider dateAdapter={AdapterDayjs}>
 
                 <DatePicker
-                    label="Start Date"
                     slots={{
                         openPickerIcon: EditCalendarRoundedIcon,
                         openPickerButton: StyledButton,

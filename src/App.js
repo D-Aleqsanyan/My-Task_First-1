@@ -4,6 +4,7 @@ import Home from "./pages/Home/home";
 import Form from "./pages/MyProfile/form";
 import {useEffect} from "react";
 import {AuthLayout} from "./layouts/AuthLayout/AuthLayouth";
+import {LayoutOtp} from "./layouts/LayoutOpt/LayoutOpt";
 
 function App() {
   const navigate = useNavigate()
@@ -24,7 +25,8 @@ function App() {
           <Route path={'/home'} element={<Home/>}/>
           <Route path={'/form'} element={<Form/>}/>
         </Route>
-        <Route path={'/login'} element={<AuthLayout/>}></Route>
+          <Route path={'/login'} element={<AuthLayout/>}></Route>
+          <Route path={'/otp'} element={<LayoutOtp/>}></Route>
       </Routes>
   );
 }
